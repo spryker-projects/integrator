@@ -104,17 +104,17 @@ class IntegratorConfig
     /**
      * @var string
      */
-    protected const MANIFESTS_DIRECTORY = 'vendor/spryker-sdk/integrator/data/manifests/';
+    protected const MANIFESTS_DIRECTORY = 'vendor/spryker-projects/integrator/data/manifests/';
 
     /**
      * @var string
      */
-    protected const MANIFESTS_URL = 'https://github.com/spryker-sdk/integrator-manifests/archive/master.zip';
+    protected const MANIFESTS_URL = 'https://github.com/spryker-projects/integrator-manifests/archive/master.zip';
 
     /**
      * @var string
      */
-    protected const LOCAL_RECIPES_DIRECTORY = 'vendor/spryker-sdk/integrator-recipes/';
+    protected const LOCAL_RECIPES_DIRECTORY = 'vendor/spryker-projects/integrator-recipes/';
 
     /**
      * @var string
@@ -134,6 +134,7 @@ class IntegratorConfig
         'spryker-shop',
         'spryker-eco',
         'spryker-sdk',
+        'spryker-demo',
         'spryker-merchant-portal',
     ];
 
